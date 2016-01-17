@@ -18,7 +18,7 @@ import six
 @six.add_metaclass(abc.ABCMeta)
 class Reviewer(object):
 
-    def __init__(self, name=u"John Doe"):
+    def __init__(self, name):
         self._name = name
 
     @property
@@ -36,4 +36,4 @@ class Reviewer(object):
 
     @abc.abstractproperty
     def personality(self):
-        """Current personality profile/dict of this reviewer"""
+        """Current personality profile of this reviewer"""
