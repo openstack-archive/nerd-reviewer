@@ -3,4 +3,4 @@ branch = True
 source = nerd-reviewer
 
 [report]
-ignore-errors = True
+ignore_errors = True
